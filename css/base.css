@@ -1,5 +1,104 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: georgia, serif;
+    font-size: 16px;
+    line-height: 30px;
+} 
+
+nav {
+    float: left;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    width: 920px;
+    padding: 10px;
+    text-align:center;
+    border-bottom:solid #ffffff 1px;
+}    
+
+article {
+    clear: both;
+    padding: 0 10px 0 10px;
+    line-height: 30px;
+}    
+
+article h1 {
+    font-size: 36px;  
+    line-height: 44px;
+    margin-top: 4px;
+}    
+
+article h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 4px;
+}    
+    
+footer {
+    width: 920px;
+    padding: 0 10px 0 10px;
+    text-align:center;
+    font-size: 10px;
+    border-top:solid #ffffff 1px;
+}    
+
+/* Footer Link List styles */
+
+footer ul{}
+footer li {}
+
+p {
+    margin-bottom: 16px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    line-height: 1px;
+}
+
+/* Heading styles */
+
+header {
+    background-color: #66ccff;
+    color: #ffffff;
+    height: 44px;
+}  
+
+header h1 {
+    float: left;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px; /* TRouBLe */   
+}    
+
+header nav {
+    float: left;
+    margin-top: 12px;
+}    
+
+header a {
+    color: #ffffff;
+    margin-right: 20px;
+    text-decoration: none;
+}    
+
+header a:link {}
+header a:visited {}
+header a:hover {
+    color: #aaaaaa;
+}    
+header a:active {
+    text-decoration: underline;
+}
+header a:focus{}
+
+h1, h2, {
+    color:black;
+    font-family: helvetica, arial, sans-serif;
 }
 
 h1 {
@@ -12,11 +111,16 @@ h2 {
     color: #0021a5;
 }
 
-p {
-    font-family: arial, helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-}
+/* Link styles */
+
+a {}
+a:link{}
+a:visited{}
+a:hover{}
+a:active{}
+a:focus{}
+
+/* Image styles */
 
 img {
     border: 5px solid #cccccc;
@@ -24,4 +128,3 @@ img {
     padding: 1%; /* TRouBLe */
     width: 90%;
 }
-
