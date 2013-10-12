@@ -45,6 +45,7 @@ footer {
     text-align:center;
     font-size: 10px;
     border-top:solid #ffffff 1px;
+    color: #66ccff;
 }    
 
 /* Footer Link List styles */
@@ -56,35 +57,37 @@ p {
     margin-bottom: 16px;
     font-family: helvetica, arial, sans-serif;
     font-size: 12px;
-    line-height: 1px;
+    line-height: 12px;
 }
 
 /* Heading styles */
 
 header {
+    
     background-color: #66ccff;
     color: #ffffff;
-    height: 44px;
+    height: 300px;
 }  
 
 header h1 {
-    float: left;
+    float: center;
     font-family: helvetica, arial, sans-serif;
     font-size: 22px;
     font-weight: 500;
-    padding: 10px; /* TRouBLe */   
+    padding: 40px; /* TRouBLe */   
 }    
 
 header nav {
     float: left;
     margin-top: 12px;
+    margin-left: 80px;
 }    
 
 header a {
-    color: #ffffff;
+    color: #cccccc;
     margin-right: 20px;
     text-decoration: none;
-}    
+}   
 
 header a:link {}
 header a:visited {}
@@ -102,13 +105,13 @@ h1, h2, {
 }
 
 h1 {
-    color: #ff4a00;
+    color: #000000;
     font-size: 40px;
 }
 
 h2 {
     font-size: 22px;
-    color: #0021a5;
+    color: #66ccff;
 }
 
 /* Link styles */
@@ -122,9 +125,7 @@ a:focus{}
 
 /* Image styles */
 
-img {
+header img {
     border: 5px solid #cccccc;
-    margin: 0 5% 0 5%;
-    padding: 1%; /* TRouBLe */
-    width: 90%;
+    width: 100%;
 }
