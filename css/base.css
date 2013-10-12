@@ -5,23 +5,25 @@
 }
 
 body {
-    font-family: georgia, serif;
+    padding: 10px;
+    font-family: helvetica, arial, sans-serif;
     font-size: 16px;
     line-height: 30px;
 } 
 
 nav {
-    float: left;
+    float: center;
     font-family: helvetica, arial, sans-serif;
     font-size: 22px;
     font-weight: 500;
     width: 920px;
     padding: 10px;
     text-align:center;
-    border-bottom:solid #ffffff 1px;
+    border: 1px solid #cccccc;
 }    
 
 article {
+    float: center;
     clear: both;
     padding: 0 10px 0 10px;
     line-height: 30px;
@@ -38,12 +40,19 @@ article h2 {
     line-height: 28px;
     margin-bottom: 4px;
 }    
+
+aside {
+    float: right;
+    padding-right: 25px;
+    text-align: center;
+    margin-left: 600px;
+}    
     
 footer {
     width: 920px;
     padding: 0 10px 0 10px;
     text-align:center;
-    font-size: 10px;
+    font-size: 12px;
     border-top:solid #ffffff 1px;
     color: #66ccff;
 }    
@@ -55,6 +64,7 @@ footer li {}
 
 p {
     margin-bottom: 16px;
+    margin-top: 5px;
     font-family: helvetica, arial, sans-serif;
     font-size: 12px;
     line-height: 12px;
@@ -74,13 +84,16 @@ header h1 {
     font-family: helvetica, arial, sans-serif;
     font-size: 22px;
     font-weight: 500;
-    padding: 40px; /* TRouBLe */   
+    padding: 40px; /* TRouBLe */ 
 }    
 
 header nav {
     float: left;
     margin-top: 12px;
     margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 12px;
+    border: 1px solid #cccccc;
 }    
 
 header a {
@@ -129,3 +142,8 @@ header img {
     border: 5px solid #cccccc;
     width: 100%;
 }
+
+article img {
+    border: 1px solid #cccccc;
+    width: 100%;
+}    
