@@ -237,7 +237,14 @@ aside img {
     margin-right: 3px;
 }    
  
-
+#olsen img {
+    width:  40%;
+    float: right;
+    margin: 0 0 0 5px;
+    border: 1px solid #cccccc;
+    padding: 2%;
+    
+}    
 /* Media Screen: Mobile Devices */
 
 @media screen and (max-width: 600px) {
