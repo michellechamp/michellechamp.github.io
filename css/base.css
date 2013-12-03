@@ -11,33 +11,6 @@ body {
     line-height: 30px;
 } 
 
-nav {
-    float: center;
-    font-family: helvetica, arial, sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    width: 920px;
-    padding: 10px;
-    border: 1px solid #cccccc;
-    text-align: center;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-}    
-
-nav a:link {
-    color: #cccccc;
-}
-nav a:visited {
-    color: #cccccc;
-}
-nav a:hover {
-    color: #66ccff;
-}    
-nav a:active {
-    text-decoration: underline;
-}
-nav a:focus{}
-
 header {
     float: center;
     background-color: #66ccff;
@@ -68,8 +41,6 @@ header a {
     text-decoration: none;
 }   
 
-header a:link {}
-header a:visited {}
 header a:hover {
     color: #66ccff;
 }    
@@ -77,8 +48,32 @@ header a:hover {
 header a:active {
     text-decoration: underline;
 }
-header a:focus{}
 
+nav {
+    float: center;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    width: 920px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}    
+
+nav a:link {
+    color: #cccccc;
+}
+nav a:visited {
+    color: #cccccc;
+}
+nav a:hover {
+    color: #66ccff;
+}    
+nav a:active {
+    text-decoration: underline;
+}
 
 nav ul: {
     margin-left: 0 auto;
@@ -102,6 +97,41 @@ article h2 {
     line-height: 28px;
     margin-bottom: 4px;
 }    
+
+p {
+    margin-bottom: 16px;
+    margin-top: 10px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+h1 {
+    color: #000000;
+    font-size: 40px;
+    font-family: helvetica, arial, sans-serif;
+}
+
+h2 {
+    font-size: 22px;
+    color: #66ccff;
+    margin-top: 20px;
+    font-family: helvetica, arial, sans-serif;
+}
+
+h3 {
+    font-size: 18px;
+    color: #000000;
+    font-family: helvetica, arial, sans-serif;
+}    
+
+section {
+    background-color: #cccccc;   
+    float: right;
+    font-family: helvetica, arial, sans-serif;
+    border: 1px solid #66ccff;
+    clear: left;
+}   
 
 aside {
     background-color: #ffffff;
@@ -127,64 +157,23 @@ footer {
 
 /* Footer Link List styles */
 
-footer ul{}
-footer li {}
-
 footer a {
     text-decoration: none;
     margin-right: 20px;
     color: #cccccc;
 }    
-    
-footer a:link {}
-
-footer a:visited {}
 
 footer a: hover {
     color: #66ccff;
 }    
 
-footer a:link {
+footer a: link {
     color: #cccccc;
 }
 
-footer a:hover {
+footer a: hover {
     color: #66ccff;
 }    
-
-
-p {
-    margin-bottom: 16px;
-    margin-top: 10px;
-    font-family: helvetica, arial, sans-serif;
-    font-size: 12px;
-    line-height: 15px;
-}
-
-h1, h2, {
-    color:black;
-    font-family: helvetica, arial, sans-serif;
-}
-
-h1 {
-    color: #000000;
-    font-size: 40px;
-}
-
-h2 {
-    font-size: 22px;
-    color: #66ccff;
-    margin-top: 20px;
-}
-
-/* Link styles */
-
-a {}
-a:link{}
-a:visited{}
-a:hover{}
-a:active{}
-a:focus{}
 
 /* Image styles */
 
