@@ -324,12 +324,16 @@ aside img {
         width: 30%;
     }    
     
+    #olsen img {
+        width:  70%;
+        margin: 5px 0 0 5px;
+    }    
+    
     aside {
         align-content: center;
         margin: 0 auto;
-        width: 100%;
-        padding: 0;
-        clear: both;
+        width: 60%;
+        padding: 5px 0 0 5px;
     }    
     
     article a {
@@ -338,11 +342,11 @@ aside img {
     }    
         
     section {
-        align-content: bottom;
         margin: 0 auto;
         width: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
+        border: 4px dotted #66ccff;
     } 
     
 }
