@@ -326,6 +326,7 @@ aside img {
 
     h1, h2, h3, h4 {
         text-align: center;
+        margin: auto;
     }    
     
     header img {
@@ -346,15 +347,26 @@ aside img {
         width: 30%;
     }    
     
+    #victoria img {
+        width:  100%;
+        margin: 5px 5px 0 5px;
+    }   
+    
+    #victoria p {
+        text-align: right;
+        width: 100%;  
+    }
+    
     #olsen img {
         width:  100%;
         margin: 5px 0 0 5px;
     }    
     
-    #victoria img {
-        width:  100%;
-        margin: 5px 0 0 5px;
-    }    
+    #olsen p {
+        text-align: right;
+        width: 100%;  
+    }
+    
     
     aside {
         align-content: center;
