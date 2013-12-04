@@ -343,6 +343,10 @@ aside img {
         border: none;
     }    
  
+    article {
+        width: 100%;
+    }
+    
     article img {
         margin: auto;
         width: 20%;
