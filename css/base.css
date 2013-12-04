@@ -244,6 +244,27 @@ aside img {
     margin-right: 3px;
 }    
  
+#victoria img {
+    width:  50%;
+    clear: both;
+    float: right;
+    max-width: 400px;
+    margin: 0 0 0 5px;
+    border: 1px solid #cccccc;
+    padding: 2%;
+}    
+
+#victoria p{
+    clear: both;
+    float: right;
+    font-size: 10px;
+    color: #000000;
+    font-family: helvetica, arial, sans-serif;
+    line-height: 3px;
+    padding: 0 0 0 100px;
+}    
+    
+
 #olsen img {
     width:  40%;
     clear: both;
@@ -326,7 +347,12 @@ aside img {
     }    
     
     #olsen img {
-        width:  70%;
+        width:  100%;
+        margin: 5px 0 0 5px;
+    }    
+    
+    #victoria img {
+        width:  100%;
         margin: 5px 0 0 5px;
     }    
     
