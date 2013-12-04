@@ -23,6 +23,7 @@ header {
 header h1 {
     float: left;
     background-color: #66ccff;
+    width: 100%;
     font-family: helvetica, arial, sans-serif;
     font-size: 22px;
     font-weight: 500;
@@ -160,7 +161,7 @@ li {
 li a {
     color: #ffffff;
     margin-right: 20px;
-    text-decoration: none;
+    text-decoration: underline;
 }   
 
 li a:hover {
