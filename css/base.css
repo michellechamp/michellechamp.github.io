@@ -166,12 +166,12 @@ li a:hover {
     color: #66ccff;
 }    
 
-#resume p {
+#resume p{
     font-family: helvetica, arial, sans-serif;
     margin-bottom: -5px;
 } 
 
-#resume h3 {
+#resume h3{
     margin-top: 10px;
     padding: 1% 0 1% 0;
     margin-bottom: -5px;
@@ -241,7 +241,7 @@ aside img {
     margin-right: 3px;
 }    
  
-#victoria img {
+#victoria img{
     width:  50%;
     clear: both;
     float: right;
@@ -262,7 +262,7 @@ aside img {
 }    
     
 
-#olsen img {
+#olsen img{
     width:  40%;
     clear: both;
     float: right;
@@ -357,17 +357,17 @@ aside img {
         margin: 5px 5px 0 5px;
     }   
     
-    #victoria p {
+    #victoria p{
         text-align: right;
         width: 100%;  
     }
     
-    #olsen img {
+    #olsen img{
         width:  100%;
         margin: 5px 0 0 5px;
     }    
     
-    #olsen p {
+    #olsen p{
         text-align: right;
         width: 100%;  
     }
