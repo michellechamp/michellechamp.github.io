@@ -98,6 +98,12 @@ article h2 {
     margin-bottom: 5px;
 }    
 
+
+#blog p {
+    float: left;
+    padding: 10px 120px 10px 120px;  
+}    
+
 p {
     margin-bottom: 16px;
     margin-top: 12px;
@@ -176,7 +182,7 @@ li a:hover {
     padding: 1% 0 1% 0;
     margin-bottom: -5px;
 }    
-    
+
 footer {
     clear: both;
     font-family: helvetica, arial, sans-serif;
@@ -241,6 +247,16 @@ aside img {
     margin-right: 3px;
 }    
  
+#fashion img {
+    width: 100%;
+    margin: auto;
+}    
+    
+#blog img {
+    width: 60%;
+    margin: 0 0 0 20%;
+}    
+
 #victoria img{
     width:  50%;
     clear: both;
